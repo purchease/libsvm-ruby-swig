@@ -4314,7 +4314,7 @@ SWIGEXPORT void Init_libsvm(void) {
   rb_define_const(mLibsvm, "ONE_CLASS", SWIG_From_int(static_cast< int >(ONE_CLASS)));
   rb_define_const(mLibsvm, "EPSILON_SVR", SWIG_From_int(static_cast< int >(EPSILON_SVR)));
   rb_define_const(mLibsvm, "NU_SVR", SWIG_From_int(static_cast< int >(NU_SVR)));
-  rb_define_const(mLibsvm, "LINEAR", SWIG_From_int(static_cast< int >(LINEAR)));
+  rb_define_const(mLibsvm, "LINR", SWIG_From_int(static_cast< int >(LINEAR)));
   rb_define_const(mLibsvm, "POLY", SWIG_From_int(static_cast< int >(POLY)));
   rb_define_const(mLibsvm, "RBF", SWIG_From_int(static_cast< int >(RBF)));
   rb_define_const(mLibsvm, "SIGMOID", SWIG_From_int(static_cast< int >(SIGMOID)));
